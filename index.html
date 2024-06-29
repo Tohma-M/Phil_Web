@@ -4,39 +4,56 @@
     <head>
         <meta charset="UTF-8"> <!-- Encodes with needed symbols-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
         <title>NeocyphMag</title>
     </head>
 
-    <body>
-        <h1> Testing </h1> <!-- remember to use headings in order of hierarchy-->
-        <p> This site will be index for <strong> NeocyphMag</strong> </p>
-        <h1> Goals of this Version of the Site</h1>
-        <ul>
-            <li> Regripping coding basics</li>
-            <li> approximating at least the basic contents of the webiste </li>
-        </ul>
-        <ol>
-            <li> just for practice</li>
-        </ol>
-        <h2> Foreign Links with Attributes/Values ~ Epoche </h2>
-        <p>
-        <ul>
-            <li> <a href="https://epochemagazine.org/about/"> EpocheMagazinePracticelink </a> </li> <!-- here, the former is attribute... the destination 
-            is automatically set to self because it is not specified; then, the latter is the description-->
-            <li> <a href="https://epochemagazine.org/about/" target="_blank" rel=" noopener noreferrer">
-                    EpocheMagazinePracticelink2</a> <!-- target
-            opens a new tab, whereas rel noopener and noreferrer block tracing from new tab to original website-->
-            </li>
-        </ul>
-        </p>
-        <h2> Relative and Absolute Links within VSdirectory </h2>
-        <p>
-        <ul>
-            <li> <a href="relative.html"> In the same directory </a> </li>
-            <li> <a href="absolute_link/absolute_1.html"> Different Directory</a></li>
-        </ul>
-        </p>
+    <body class="dimensions">
+        <div class="site_header"> <!--- also add the three: archive, index...-->
+            <div class="logo">
+                <p class="title">
+                    Neocyph
+                </p>
+                <p class=" title">
+                    A Monthly Cultural
+                </p>
 
+            </div>
+            <div class="nav_bar">
+                <a class="title" href=archive_practice.html target="_blank" rel="noopener noreferrer"> Archive</a>
+                <a class="title" href=Indices.html target="_blank" rel="noopener noreferrer"> Index </a>
+            </div>
+        </div>
+        <div class="image_logo">
+            <img src="images/Heraclitus.jpeg" alt="Doomed Heraclitus" id="image">
+            <!--- img...-->
+        </div>
+        <div class="statement">
+            <h1 class="About_header"> About Neocyph</h1>
+            <p class="About_description"> Neocyph, short for Neocyphilis, is a community of nine dedicated to the
+                troglydization of the world. Trogldyization
+                is as it sounds. It is the making-base, the making-stupid, the making-playful of all existing values
+                hitherto.
+            </p>
+            <p class="About_description_2">
+                Further description yata,yata,yata.
+            </p>
+            <!--- statement about what this magazine is... Might also have another image just above-->
+        </div>
+        <div class="teaser_archive">
+            <!-- here I want to put selections of from the archive in a panel, assemblage style. Later make into maps so it works rhizomatically -->
+            <div class="archive_panel">
+            </div>
+            <div class="archive_panel">
+            </div>
+            <div class="archive_panel">
+            </div>
+            <!--- teaser of archive, easily scrollable -->
+        </div>
+        <div class="subscription">
+            <!--- subscribe, email, post?-->
+        </div>
     </body>
 
 </html>

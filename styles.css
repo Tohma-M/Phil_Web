@@ -1,0 +1,118 @@
+* {
+    /* resetting box models + showing boxing */
+    /* outline: 2px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+.dimensions {
+    max-height: 100vh;
+    overflow: auto;
+}
+
+.site_header {
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    font-family: "times new roman";
+    font-size: 24px;
+    color: grey;
+    text-decoration: none;
+}
+
+
+.nav_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image_logo {
+    margin-top: 30px;
+
+}
+
+#image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+    /* justify content not working here because there is no more space to give? Maybe make the height manual for now, then see where that goes?" */
+
+}
+
+.About_header {
+    font-family: 'TimesNow', serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.About_description {
+    font-family: "TimesNow", serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.About_description_2 {
+    font-size: 22px;
+    margin_bottom: 22px;
+}
+
+.subscription {
+    display: flex;
+    flex-direction: row;
+}
+
+/* could be good for archive page of all squares? */
+.teaser_archive {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    column-gap: 25px;
+    background-color: red;
+}
+
+.archive_panel {
+    border: 2px solid blue;
+}
+
+/* one strategy that I can employ is doing border, padding and margin for every div. 
+Then I can make every section that I've outlined on paper into a div */
+
+/* I can also change the content size by changing height and width. Be sure to 
+use devtools to better see this */
+
+/* tip: margins are collapsed. Adjacent elements share a margin, so the largest of 
+the two will be used */
+
+/* height and width displayed on dev tools is the sum of element + border + padding
+if you want the height and width to be represented directly, use box-sixing: border-box
+*/
